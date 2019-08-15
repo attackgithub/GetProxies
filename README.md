@@ -113,8 +113,11 @@ def run():
 ```
 ### Usage
 ```
-python GetProxies.py  #数据采集
-python washproxies.py   #数据清洗
+#数据采集
+python GetProxies.py
+
+#数据清洗
+python washproxies.py
 ```
 
 
@@ -140,7 +143,6 @@ python washproxies.py   #数据清洗
 
 ![](https://upload-images.jianshu.io/upload_images/11466123-91652eb960ec14b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-然后，使用刚刚的api模块调用即可，这毕竟是个轮子，如果你想的话，花五分钟丢flask做个http接口亦可，而我这里是用来给爬虫平台做调度的,链接奉上。
->https://github.com/rabbitmask/GetProxies
+然后，使用刚刚的api模块调用即可，这毕竟是个轮子，如果你想的话，花五分钟丢flask做个http接口亦可，而我这里是用来给爬虫平台做调度的。
 
 那么，玩的开心。
